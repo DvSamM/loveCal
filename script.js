@@ -8,8 +8,8 @@ function calculate(){
     if (yourName == '' || yourBabeName == '') {
         alert('Fill in the Empty Gap')
     } else {
-        //  document.getElementById('firstName').value = ''
-        //  document.getElementById('secondName').value = ''
+         document.getElementById('firstName').value = ''
+         document.getElementById('secondName').value = ''
     document.getElementById('lovefinal').innerHTML += `
         
        <p style="color: red; font-size: 19px; ">  ${yourName} and ${yourBabeName}  loveScore is ${finalScore}% </p>
